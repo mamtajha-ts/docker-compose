@@ -4,5 +4,5 @@ services:
     image: "mamtaj/web:v1"
     ports:
       - "5000:5000"
-  myredis:
+  redis:
     image: "redis:alpine"
